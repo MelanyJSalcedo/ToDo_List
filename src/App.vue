@@ -5,11 +5,12 @@
 
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 const message = ref("Hola mundo");*/
-import {CheckCircleIcon}  from "@heroicons/vue/solid";
-import Tasks from './components/Tasks.vue';
+import { CheckCircleIcon }  from "@heroicons/vue/solid";
+//import Tasks from './components/Tasks.vue';
 import {ref} from "vue";
 
 let id= ref(1);//variable reactiva
+
 interface Todo {
   identifier: number,
   text: string,
